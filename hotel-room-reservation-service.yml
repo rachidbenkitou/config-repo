@@ -1,2 +1,16 @@
-test:
-  val: 12
+server:
+  servlet:
+    context-path: /api
+  port: 9090
+
+flickr:
+  apiKey: cc078b0661b1506e4f974cc4835e89c5
+  apiSecret: 9a85fa8849970392
+  appKey: 72157720906359052-684a7e09032b5f26
+  appSecret: f0bf6353e26cc745
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
